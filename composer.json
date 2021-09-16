@@ -1,0 +1,12 @@
+{
+    "name": "asrafulhaq/arman",
+    "description": "This is a Package",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Asrafulhaq\\Arman": "src/"
+        }
+    }
+}
