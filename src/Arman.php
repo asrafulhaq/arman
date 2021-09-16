@@ -44,4 +44,13 @@ class Arman
         $file_name = self::randname('jpg');
         move_uploaded_file($tmp_name, $path . $file_name);
     }
+
+    /**
+     * Get Object Data 
+     */
+    public function getData(array $data)
+    {
+        $json_data = json_encode($data);
+        return json_decode($json_data);
+    }
 }
