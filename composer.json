@@ -6,7 +6,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Asrafulhaq\\Arman": "src"
+            "Asrafulhaq\\Arman\\": "src"
         }
     }
 }
